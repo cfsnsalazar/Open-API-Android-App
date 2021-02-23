@@ -1,7 +1,8 @@
-package com.codingwithmitch.openapi
+package com.codingwithmitch.openapi.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.codingwithmitch.openapi.R
 
 class AuthActivity : AppCompatActivity(){
 
