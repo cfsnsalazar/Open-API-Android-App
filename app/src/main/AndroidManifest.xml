@@ -13,7 +13,7 @@
             android:theme="@style/AppTheme"
             >
 
-        <activity android:name=".activity.AuthActivity"
+        <activity android:name="com.codingwithmitch.openapi.auth.activity.AuthActivity"
                   android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

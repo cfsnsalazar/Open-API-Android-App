@@ -1,4 +1,4 @@
-package com.codingwithmitch.openapi.activity
+package com.codingwithmitch.openapi.auth.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

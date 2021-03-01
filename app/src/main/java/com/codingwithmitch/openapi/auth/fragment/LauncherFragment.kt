@@ -1,4 +1,4 @@
-package com.codingwithmitch.openapi.fragment
+package com.codingwithmitch.openapi.auth.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater

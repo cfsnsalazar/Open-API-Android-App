@@ -7,7 +7,7 @@
 
     <fragment
             android:id="@+id/launcherFragment"
-            android:name="com.codingwithmitch.openapi.fragment.LauncherFragment"
+            android:name="com.codingwithmitch.openapi.auth.fragment.LauncherFragment"
             android:label="fragment_launcher"
             tools:layout="@layout/fragment_launcher" >
         <action
@@ -34,16 +34,16 @@
     </fragment>
     <fragment
             android:id="@+id/loginFragment"
-            android:name="com.codingwithmitch.openapi.fragment.LoginFragment"
+            android:name="com.codingwithmitch.openapi.auth.fragment.LoginFragment"
             android:label="fragment_login"
             tools:layout="@layout/fragment_login" />
     <fragment
             android:id="@+id/registerFragment"
-            android:name="com.codingwithmitch.openapi.fragment.RegisterFragment"
+            android:name="com.codingwithmitch.openapi.auth.fragment.RegisterFragment"
             android:label="fragment_register"
             tools:layout="@layout/fragment_register" />
     <fragment
             android:id="@+id/forgotPasswordFragment"
-            android:name="com.codingwithmitch.openapi.fragment.ForgotPasswordFragment"
+            android:name="com.codingwithmitch.openapi.auth.fragment.ForgotPasswordFragment"
             android:label="ForgotPasswordFragment" />
 </navigation>

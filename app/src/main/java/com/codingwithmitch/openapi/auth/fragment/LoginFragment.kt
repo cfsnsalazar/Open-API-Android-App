@@ -1,4 +1,4 @@
-package com.codingwithmitch.openapi.fragment
+package com.codingwithmitch.openapi.auth.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,17 +9,17 @@ import com.codingwithmitch.openapi.R
 
 /**
  * A simple [Fragment] subclass.
- * Use the [ForgotPasswordFragment.newInstance] factory method to
+ * Use the [LoginFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class ForgotPasswordFragment : Fragment() {
+class LoginFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_forgot_password, container, false)
+        return inflater.inflate(R.layout.fragment_login, container, false)
     }
 
     companion object {
@@ -27,9 +27,9 @@ class ForgotPasswordFragment : Fragment() {
          * Use this factory method to create a new instance of
          * this fragment using the provided parameters.
          *
-         * @return A new instance of fragment ForgotPasswordFragment.
+         * @return A new instance of fragment LoginFragment.
          */
         @JvmStatic
-        fun newInstance(param1: String, param2: String) = ForgotPasswordFragment()
+        fun newInstance() = LoginFragment()
     }
 }
