@@ -12,7 +12,7 @@ import com.codingwithmitch.openapi.R
  * Use the [ForgotPasswordFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class ForgotPasswordFragment : Fragment() {
+class ForgotPasswordFragment : BaseAuthFragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
