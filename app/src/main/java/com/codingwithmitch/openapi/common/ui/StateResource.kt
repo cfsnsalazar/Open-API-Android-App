@@ -5,6 +5,7 @@ data class Data<T>(val data: Event<T>?, val response: Event<Response>?)
 data class StateError(val response: Response)
 
 data class Response(val message: String?, val responseType: ResponseType)
+
 sealed class ResponseType{
 
     class Toast: ResponseType()
@@ -13,7 +14,6 @@ sealed class ResponseType{
 
     class None: ResponseType()
 }
-
 
 /**
  * Used as a wrapper for data that is exposed via a LiveData that represents an event.
